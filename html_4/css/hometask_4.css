@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li
+{
+  display:inline;
+  margin-right:70px;
+}
+.navigation-pages__link_1
+{
+   margin-right:350px;
+   margin-left:100px;
+   font-size:150%;
+}
+.first_1:hover
+{
+    color:rgb(48, 141, 5);
+}
+.navigation-pages__link
+{
+    font-weight:600;
+}
+.first_2:hover
+{
+    color:rgb(48,141,5);
+}
+.caption
+{
+    text-align: center;
+    margin-top:50px;
+    font-size:200%;
+    font-weight:900;
+    border-image-slice:0 0 20 0;
+}
+
+.box_img{
+display: block;
+}
+
+.products img
+{
+    display:block;
+    margin-top:50px;
+    margin-left:660px;
+}
+.box
+{
+    text-align: center;
+    margin:auto;
+    width:1200px;
+}
+
+.box_item
+{
+    width: 260px;
+    display:inline-block;
+    text-align: center;
+    /* float:  left; */
+    /* margin: 0 20px; */
+}
+.products::after{
+    content: '';
+display: block;
+width: 100px;
+height: 7px;
+background-color: #4ec6ab;
+margin: auto;
+margin-top: 10px;
+}
+.name
+{
+    /* display: flow-root; */
+    background-color:black;
+    color:rgb(241, 235, 235);
+    width: 200px;
+    height: 30px;
+    float: left;
+}
+
+.dollars
+{
+    /* display:inline-block; */
+    background:grey;
+    color:rgb(241, 235, 235);
+    width: 56px;
+    height: 30px;
+    float:  left;
+}
+
+.price:hover > .dollars
+{
+    background-color:#1abc9c;
+}
+
+.price:hover > .name
+{
+    background-color:#7fd9c7;
+}
+.Latest
+{
+    text-align: center;
+    margin-top:50px;
+}
+.News
+{
+    font-weight: 600;
+    font-size: 25px;
+}
+.products_img
+{
+    display:block;
+    margin-top:40px;
+    margin-left:520px;
+}
+.Lorem
+{
+   display:block;
+   text-align: left;
+   
+}
+.Ipsum
+{
+    display:block;
+    text-align: left;
+    
+}
+.Read
+{
+    display:block;
+    text-align:left;
+    color:rgb(241, 235, 235);
+    border-color: #4ec6ab;
+    background-color: #4ec6ab;
+    border-width: 10px;
+    border: 1px solid;
+    /* height: 40px; */
+    /* width: 98px; */
+    font-size: 14px;
+    padding: 20px 44px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
